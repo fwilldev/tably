@@ -1192,6 +1192,18 @@ export function createSettingsPanel(options: SettingsPanelOptions): SettingsPane
   })
   inner.appendChild(behaviorSection)
 
+  // --- Ko-fi support widget ---
+  const kofiContainer = document.createElement('div')
+  kofiContainer.className = 'mt-6 flex justify-center'
+  const kofiScript1 = document.createElement('script')
+  kofiScript1.src = 'https://storage.ko-fi.com/cdn/widget/Widget_2.js'
+  kofiContainer.appendChild(kofiScript1)
+  kofiScript1.onload = () => {
+    ;(window as any).kofiwidget2.init('Support me on Ko-fi', '#72a4f2', 'J3G820LBTF')
+    kofiContainer.innerHTML += (window as any).kofiwidget2.getHTML()
+  }
+  inner.appendChild(kofiContainer)
+
   panel.appendChild(inner)
 
   // --- Container element ---

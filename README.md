@@ -1,5 +1,7 @@
 # Tably
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/J3G820LBTF)
+
 A fast, minimalistic new tab page that puts your tabs front and center. No clutter, no distractions — just instant access to everything you need. Built for efficiency with zero loading overhead.
 
 ![Tably](./assets/main.png)
