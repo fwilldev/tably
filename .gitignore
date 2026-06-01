@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.DS_Store
+*.log
+test-results/
+playwright-report/
+.playwright-mcp/
+.omo/
+.sisyphus/
+task9-settings-ui.png

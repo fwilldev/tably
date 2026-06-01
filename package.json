@@ -1,0 +1,26 @@
+{
+  "name": "tably",
+  "version": "1.0.0",
+  "description": "Minimalistic tab manager for your new tab page",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && cp manifest.json dist/manifest.json",
+    "preview": "vite preview",
+    "tsc": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.59.1",
+    "@tailwindcss/vite": "^4.2.2",
+    "@types/chrome": "^0.1.40",
+    "postcss": "^8.5.9",
+    "tailwindcss": "^4.2.2",
+    "typescript": "^6.0.2",
+    "vite": "^8.0.8",
+    "vitest": "^4.1.4"
+  }
+}
