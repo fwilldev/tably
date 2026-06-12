@@ -2,6 +2,9 @@
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/J3G820LBTF)
 
+[![chrome-web-store](https://developer.chrome.com/static/docs/webstore/branding/image/mPGKYBIR2uCP0ApchDXE.png)](https://chromewebstore.google.com/detail/tably/acnbdinebifelgdihaakonbnfpllfoch)
+
+
 A fast, minimalistic new tab page that puts your tabs front and center. No clutter, no distractions — just instant access to everything you need. Built for efficiency with zero loading overhead.
 
 ![Tably](./assets/main.png)
@@ -41,11 +44,6 @@ npm run build
 
 Load the `dist/` folder as an unpacked extension in Chrome.
 
-## Tech Stack
-
-- TypeScript, Vite, Tailwind CSS
-- Chrome Extension Manifest V3
-- Playwright (E2E), Vitest (Unit)
 
 ## License
 
